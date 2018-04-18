@@ -1,4 +1,4 @@
-class FruitsImplemented
+class DrawerImplemented
 
   def initialize
     @my_array = Array.new
@@ -12,8 +12,8 @@ class FruitsImplemented
     @my_array.find_index(element)
   end
 
-  def length
-    @my_array.length
+  def size
+    @my_array.size
   end
 
   def print

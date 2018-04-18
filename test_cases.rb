@@ -1,15 +1,9 @@
-require "./fruits.rb"
-require "./my_2d_array.rb"
+require "./drawer.rb"
+require "./table.rb"
 
-# fruits= Fruits.new
-# fruits.insert("apple")
-# fruits.insert("banana")
-# fruits.print
-# fruits.find("banana")
-# fruits.size
+fruits = Drawer.new
+fruits.print
 
 
 table = Table.new
-table.build_drawer("clothes")
-table.insert_to_drawer("clothes", "shirt")
 table.print
